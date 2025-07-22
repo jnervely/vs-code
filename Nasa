@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "type": "shell",
+            "command": "g++ HelloWorld.cpp -o helloworld"
+        },
+        {
+            "taskName": "run",
+            "type": "shell",
+            "command": "${workspaceRoot}/helloworld"
+        }
+    ]
+}
